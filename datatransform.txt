@@ -8,7 +8,7 @@ try:
     data = pd.read_csv(archivo_csv)
     
     # Ordenar los datos por nombre
-    data_ordenada = data.sort_values(by='Fecha_Registro')
+    data_ordenada = data.sort_values(by='Nombre_1')
     
     # Exportar a Excel
     archivo_excel = 'Reporte_clientes.xlsx'
